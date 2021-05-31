@@ -40,7 +40,7 @@ ENV PATH="/opt/program:${PATH}"
 
 # Set up the program in the image
 COPY opt_ml /opt/ml
-COPY opt_program /opt/program
+COPY opt_program2 /opt/program
 WORKDIR /opt/program
 RUN chmod +x train
 RUN chmod +x serve

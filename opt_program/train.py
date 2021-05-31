@@ -140,7 +140,7 @@ def validate(model, criterion, valset, iteration, batch_size, n_gpus,
             val_loss += reduced_val_loss
         val_loss = val_loss / (i + 1)
 
-    docker.xgboost.train()
+    sagemaker_tacotron2_docker.opt_program.train()
     if rank == 0:
         print("Validation loss {}: {:9f}  ".format(iteration, val_loss))
         logger.log_validation(val_loss, model, y, y_pred, iteration)
