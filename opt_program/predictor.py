@@ -7,7 +7,7 @@ from s3fs.core import S3FileSystem
 from sagemaker import get_execution_role
 import sys
 sys.path.append('waveglow/')
-#import flask
+import flask
 
 import numpy as np
 import torch
@@ -26,7 +26,6 @@ model_path = os.path.join(prefix, 'model')
 
 def predict(sequence):
     hparams = create_hparams()
-    print(hparams)
     hparams.sampling_rate = 22050
     my_bucket = "aws-linux-academy-2k10-ml-sagemaker"
     my_file = "checkpoint_32224"
@@ -36,12 +35,9 @@ def predict(sequence):
     model.load_state_dict(
         torch.load(s3.open('{}/{}'.format(my_bucket, my_file), mode='rb'))['state_dict'])
     _ = model.eval().half()
-    # spróbuj odpalić inferencję w module tacotron2 i tylko wrzucić wav na s3 jak się
-    # skończy inferencja
 
-    #waveglow_path = 'waveglow_256channels_universal_v5.pt'
-    #waveglow = torch.load(s3.open('{}/{}'.format(my_bucket, waveglow_path), mode='rb'))['model']
-    waveglow = torch.hub.load('nvidia/DeepLearningExamples:torchhub', 'nvidia_waveglow')
+    waveglow_path = 'waveglow_256channels_ljs_v3.pt'
+    waveglow = torch.load(s3.open('{}/{}'.format(my_bucket, waveglow_path), mode='rb'))['model']
     waveglow.cuda().eval().half()
     for layer in waveglow.convinv:
         layer.float()
@@ -65,10 +61,10 @@ def write_to_s3(filename, bucket, key):
 
 
 # The flask app for serving predictions
-#app = flask.Flask(__name__)
+app = flask.Flask(__name__)
 
 
-#@app.route('/invocations', methods=['POST'])
+@app.route('/invocations', methods=['POST'])
 def inference():
     """Do an inference on a single batch of data. In this sample server, we take data
     as txt, generate speech & put it on s3
@@ -100,21 +96,18 @@ def inference():
         my_bucket = "aws-linux-academy-2k10-ml-sagemaker"
         print("Writing file to s3")
         write_to_s3(filename, my_bucket, filename)
-#        return flask.Response(response="Audio file saved on S3 bucket", status=200,
-                              # mimetype='text/plain')
+        return flask.Response(response="Audio file saved on S3 bucket", status=200,
+                              mimetype='text/plain')
     except:
         import traceback
 
-#        return flask.Response(response=f"{traceback.format_exc()}", status=400,
-#                              mimetype='text/plain')
+        return flask.Response(response=f"{traceback.format_exc()}", status=400,
+                              mimetype='text/plain')
 
 
 
 
-#@app.route('/ping', methods=['GET'])
+@app.route('/ping', methods=['GET'])
 def ping():
     return flask.Response(response='Pong!', status=200, mimetype='application/json')
 
-print("chuj")
-seq = preprocess("teksty")    
-predict(seq)

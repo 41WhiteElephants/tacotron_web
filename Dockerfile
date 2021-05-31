@@ -4,7 +4,6 @@ MAINTAINER Amazon AI <sage-learner@amazon.com>
 
 RUN apt-get -y update && apt-get install -y --no-install-recommends \
          wget \
-         vim \
          tree \
          build-essential \
          python3-dev \
@@ -40,7 +39,7 @@ ENV PATH="/opt/program:${PATH}"
 
 # Set up the program in the image
 COPY opt_ml /opt/ml
-COPY opt_program2 /opt/program
+COPY opt_program /opt/program
 WORKDIR /opt/program
 RUN chmod +x train
 RUN chmod +x serve
