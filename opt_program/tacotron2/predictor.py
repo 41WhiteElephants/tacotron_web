@@ -7,15 +7,15 @@ from s3fs.core import S3FileSystem
 from sagemaker import get_execution_role
 import sys
 sys.path.append('waveglow/')
-import flask
+#import flask
 
 import numpy as np
 import torch
 
-from tacotron2.hparams import create_hparams
-from tacotron2.train import load_model
-from tacotron2.text import text_to_sequence
-from tacotron2.waveglow import denoiser
+from hparams import create_hparams
+from train import load_model
+from text import text_to_sequence
+from denoiser import Denoiser
 from pydub import AudioSegment
 from datetime import date
 import IPython.display as ipd
@@ -26,11 +26,12 @@ model_path = os.path.join(prefix, 'model')
 
 def predict(sequence):
     hparams = create_hparams()
+    print(hparams)
     hparams.sampling_rate = 22050
     my_bucket = "aws-linux-academy-2k10-ml-sagemaker"
     my_file = "checkpoint_32224"
     s3 = S3FileSystem(anon=False)
-
+    # import pdb;pdb.set_trace()
     model = load_model(hparams)
     model.load_state_dict(
         torch.load(s3.open('{}/{}'.format(my_bucket, my_file), mode='rb'))['state_dict'])
@@ -38,13 +39,13 @@ def predict(sequence):
     # spróbuj odpalić inferencję w module tacotron2 i tylko wrzucić wav na s3 jak się
     # skończy inferencja
 
-    # waveglow_path = 'waveglow_256channels_universal_v5.pt'
-    # waveglow = torch.load(s3.open('{}/{}'.format(my_bucket, waveglow_path), mode='rb'))['model']
+    #waveglow_path = 'waveglow_256channels_universal_v5.pt'
+    #waveglow = torch.load(s3.open('{}/{}'.format(my_bucket, waveglow_path), mode='rb'))['model']
     waveglow = torch.hub.load('nvidia/DeepLearningExamples:torchhub', 'nvidia_waveglow')
-    waveglow.eval().half()
+    waveglow.cuda().eval().half()
     for layer in waveglow.convinv:
         layer.float()
-    denoiser = denoiser.Denoiser(waveglow)
+    denoiser = Denoiser(waveglow)
     mel_outputs, mel_outputs_postnet, _, alignments = model.inference(sequence)
     with torch.no_grad():
         audio = waveglow.infer(mel_outputs_postnet, sigma=0.666)
@@ -64,10 +65,10 @@ def write_to_s3(filename, bucket, key):
 
 
 # The flask app for serving predictions
-app = flask.Flask(__name__)
+#app = flask.Flask(__name__)
 
 
-@app.route('/invocations', methods=['POST'])
+#@app.route('/invocations', methods=['POST'])
 def inference():
     """Do an inference on a single batch of data. In this sample server, we take data
     as txt, generate speech & put it on s3
@@ -99,19 +100,21 @@ def inference():
         my_bucket = "aws-linux-academy-2k10-ml-sagemaker"
         print("Writing file to s3")
         write_to_s3(filename, my_bucket, filename)
-        return flask.Response(response="Audio file saved on S3 bucket", status=200,
-                              mimetype='text/plain')
+#        return flask.Response(response="Audio file saved on S3 bucket", status=200,
+                              # mimetype='text/plain')
     except:
         import traceback
 
-        return flask.Response(response=f"{traceback.format_exc()}", status=400,
-                              mimetype='text/plain')
+#        return flask.Response(response=f"{traceback.format_exc()}", status=400,
+#                              mimetype='text/plain')
 
 
 
 
-@app.route('/ping', methods=['GET'])
+#@app.route('/ping', methods=['GET'])
 def ping():
     return flask.Response(response='Pong!', status=200, mimetype='application/json')
 
-
+print("chuj")
+seq = preprocess("teksty")    
+predict(seq)
