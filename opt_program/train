@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+
+import sys
+import os
+prefix = '/opt/ml/'
+
+input_path = prefix + 'input/data'
+output_path = os.path.join(prefix, 'output')
+model_path = os.path.join(prefix, 'model')
+
+
+# The function to execute the training.
+def train():
+    print('\nStarting the training.')
+    if not os.path.exists(model_path):
+        os.mkdir(model_path)
+    with open(os.path.join(model_path, 'model'), 'w+') as f:
+        f.write('dummy model params')
+    print('Training complete.')
+
+
+if __name__ == '__main__':
+    train()
+    sys.exit(0)

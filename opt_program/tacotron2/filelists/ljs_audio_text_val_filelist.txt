@@ -1,0 +1,162 @@
+/home/174520hj/dataset/CS8_45.wav|W życiu codziennym, dobrze jest umieć pohamować emocje.
+/home/174520hj/dataset/CS8_46.wav|Z drugiej strony, czym byłby świat bez uczuć?
+/home/174520hj/dataset/CS8_47.wav|Jak by było, gdybyśmy nie czuli wyrzutów sumienia kłamiąc? Nie czuli miłości do dzieci małżonka rodziny i przyjaciół ani motywacji by osiągnąć coś wielkiego?
+/home/174520hj/dataset/CS8_48.wav|Naprawdę, jesteśmy całkowicie zależni od uczuć.
+/home/174520hj/dataset/CS8_49.wav|Zarówno te pozytywne, jak i negatywne, prowadzą nas przez życie i przyczyniają się do tego, że wciąż sięgamy po więcej.
+/home/174520hj/dataset/CS8_5.wav|dzięki temu zyskamy możliwość zapanowania nad ich wybuchem zanim kogoś zranimy lub obrazimy
+/home/174520hj/dataset/CS8_50.wav|Czuwać mózgiem.
+/home/174520hj/dataset/CS8_51.wav|Hormony i autonomiczny układ nerwowy robią to, co im dyktuje kora mózgowa.
+/home/174520hj/dataset/CS8_52.wav|Autonomiczny, inaczej wegetatywny układ nerwowy, jest podporządkowany mózgowi i dzieli się na układ współczulny, zwany inaczej sympatycznym, który nas pobudza i przywspółczulny, inaczej parasympatyczny, który nas hamuje.
+/home/174520hj/dataset/CS8_54.wav|Albo że pocą ci się dłonie, kiedy ktoś zadaje ci nieprzyjemne pytania.
+/home/174520hj/dataset/CS8_55.wav|Ale to również on sprawia, że reagujesz błyskawicznie i w razie konieczności uciekasz.
+/home/174520hj/dataset/CS8_57.wav|Quad współczulny chce, żeby cała krew szła do mięśni, ponieważ w ten sposób przygotowuje cię do walki lub ucieczki.
+/home/174520hj/dataset/CS8_58.wav|Przywspółczulny pozwala zaś, żeby krew szła do jelit, ponieważ jest potrzebna do trawienia pokarmu i wchłaniania substancji odżywczych.
+/home/174520hj/dataset/CS8_59.wav|Potrzebujemy ich obu.
+/home/174520hj/dataset/CS8_6.wav|uczucia mogą sprawić że ktoś goli się na łyso
+/home/174520hj/dataset/CS8_60.wav|Bez układu współczulnego ,nie bylibyśmy w stanie skupić się maksymalnie na tym by nie wypaść z drogi i dojechać bezpiecznie do domu, gdybyśmy niespodziewanie wpadli w poślizg na oblodzonej nawierzchni.
+/home/174520hj/dataset/CS8_61.wav|A bez układu przywspółczulnego, cierpielibyśmy na rozstrój żołądka, bezsenność.
+/home/174520hj/dataset/CS8_62.wav|Czuwalibyśmy wewnętrzny niepokój i nie bylibyśmy w stanie wypocząć.
+/home/174520hj/dataset/CS8_64.wav|Jego prymitywna część, za pomocą autonomicznego układu nerwowego sprawia, że w sytuacjach w których uważa on za stosowne aktywować cały organizm, z nadnerczy uwalnia się hormon stresu zwany adrenaliną.
+/home/174520hj/dataset/CS8_65.wav|Sytuacji w których się ona wydziela jest wiele.
+/home/174520hj/dataset/CS8_66.wav|Może się to stać wtedy, kiedy osoba, która od dawna ci się podoba, nagle cię pocałuje.
+/home/174520hj/dataset/CS8_67.wav|Ale również w sytuacjach, kiedy ogarnia cię niepokój lub złość.
+/home/174520hj/dataset/CS8_68.wav|Dzięki podaniu studentom adrenaliny, dwóch amerykańskich uczonych znalazło odpowiedź na pytanie, co przesądza o tym, jakie uczucie nam towarzyszy, kiedy nasze ciało się aktywizuje.
+/home/174520hj/dataset/CS8_7.wav|bije paparazzo parasolem
+/home/174520hj/dataset/CS8_73.wav|Kiedy znaleźli się w pomieszczeniu razem z aktorem, który udawał euforię wiązali swoje fizyczne reakcje z tym, że czują radość.
+/home/174520hj/dataset/CS8_74.wav|Jeśli natomiast towarzyszył im aktor odgrywający napad złości, wykazywali tendencję do wiązania przyspieszonego tętna i pocących się dłoni, ze swoją irytacją.
+/home/174520hj/dataset/CS8_75.wav|Jednym słowem, szukali naturalnego wytłumaczenia zaobserwowanych symptomów i chętnie przychylali się do wyjaśnień które podsuwali im aktorzy, udający uczestników badań.
+/home/174520hj/dataset/CS8_76.wav|Wygląda więc na to, że aktywacja adrenaliny lub innych neuroprzekaźników wywołuje różne uczucia i że to mózg a dokładniej kora mózgowa decyduje, o tym jakiego uczucia doświadczymy w danej sytuacji.
+/home/174520hj/dataset/CS8_77.wav|A to oznacza ni mniej ni więcej, tylko tyle że pod wpływem adrenaliny, nie stajemy się automatycznie rozdrażnieni lub radośni.
+/home/174520hj/dataset/CS8_8.wav|zabiera mikrofon nastolatce która ma wygłosić mowę dziękczynną
+/home/174520hj/dataset/CS8_80.wav|Ale zakochanie nie siedzi ani w udzie, ani w sercu, lecz w mózgu.
+/home/174520hj/dataset/CS8_81.wav|Dokładnie nie wiadomo gdzie są zlokalizowane poszczególne uczucia, ale można zaobserwować pewne wzorce.
+/home/174520hj/dataset/CS8_82.wav|Wiele struktur mieszczących się w głębi mózgu wokół ciała modzelowatego, wchodzi w skład wspomnianego układu limbicznego.
+/home/174520hj/dataset/CS8_84.wav|Hipokamp, konik morski, jest częścią układu limbicznego i pozwala przenosić informacje z pamięci krótkotrwałej do długotrwałej.
+/home/174520hj/dataset/CS8_85.wav|Jak już wspomniałam, ludzie mają wyjątkowo dobrą pamięć do zdarzeń z którymi wiążą się silne emocje.
+/home/174520hj/dataset/CS8_86.wav|Tak jak głód motywuje nas do znalezienia pokarmu, tak samo uczucia motywują nas do zadbania o takie potrzeby jak bezpieczeństwo i partnerstwo.
+/home/174520hj/dataset/CS8_87.wav|To kwintesencja ewolucji.
+/home/174520hj/dataset/CS8_88.wav|Przetrwanie i reprodukcja.
+/home/174520hj/dataset/CS8_89.wav|Wszystko co psychiczne, jest fizyczne.
+/home/174520hj/dataset/CS8_9.wav|albo ochrypłym głosem demonstracyjnie żegna się po wygranych wyborach z przeciwnikami politycznymi chociaż to dziecinne
+/home/174520hj/dataset/CS8_90.wav|Czucia są kontrolowane przez różne substancje chemiczne w mózgu.
+/home/174520hj/dataset/CS8_91.wav|Chociaż to duże uproszczenie powiem, że najważniejszymi neuroprzekaźnikami, które wydzielają się kiedy ktoś jest dla nas miły są dopamina, serotonina i oksytocyna.
+/home/174520hj/dataset/CS8_92.wav|Prawiają one, że czujemy się dobrze i mamy motywację do tego, by powtórzyć zachowanie które wywołało ten przyjemny stan.
+/home/174520hj/dataset/CS8_93.wav|W praktyce jednak, wiele różnych związków chemicznych zapewniających kontakt między neuronami, jest aktywnych jednocześnie.
+/home/174520hj/dataset/CS8_94.wav|Niektóre z nich, umożliwiają komunikację między jedną komórką nerwową, a drugą.
+/home/174520hj/dataset/CS8_95.wav|Inne zaś, wpływają na wiele położonych obok siebie neuronów.
+/home/174520hj/dataset/CS9_0.wav|Dzięki temu, że liczne neuroprzekaźniki współdziałają ze sobą, mózg może dopasować nasz nastrój i uczucia do sytuacji, w której się znajdujemy.
+/home/174520hj/dataset/CS9_1.wav|Decyduje zresztą nie tylko o tym co czujemy.
+/home/174520hj/dataset/CS9_10.wav|Osoby, które poproszono o to, by uśmiechały się w trakcie oglądania filmu rysunkowego, uważały że film był zabawniejszy niż te osoby, które poproszono o marszczenie czoła.
+/home/174520hj/dataset/CS9_100.wav|Trudno jednak w pełni zrozumieć wyłączenie ciała migdałowatego, które zwykle angażuje się w prymitywne uczucia.
+/home/174520hj/dataset/CS9_101.wav|To właśnie jego dezaktywacja wydaje się prowadzić do hiperseksualności i bezkrytycznych zachowań seksualnych, w przypadku pewnych uszkodzeń mózgu.
+/home/174520hj/dataset/CS9_103.wav|Uszkodzenie wewnętrznej części płata skroniowego, gdzie znajduje się zarówno hipokamp, odpowiedzialny za pamięć, jak i ciało migdałowate.
+/home/174520hj/dataset/CS9_105.wav|Jak większość zespołów, został nazwany na cześć naukowców, którzy opisali go jako pierwsi.
+/home/174520hj/dataset/CS9_107.wav|Osoby cierpiące na to zaburzenie, mają ogromne problemy z pamięcią i nie są w stanie tworzyć nowych wspomnień.
+/home/174520hj/dataset/CS9_108.wav|Nie potrafią również odczuwać lęku i złości.
+/home/174520hj/dataset/CS9_109.wav|Ich seksualność pozostaje natomiast nietknięta, a nawet więcej.
+/home/174520hj/dataset/CS9_11.wav|Kiedy robisz naburmuszoną minę, aktywujesz ośrodek złości i strachu w mózgu, czyli ciało migdałowate.
+/home/174520hj/dataset/CS9_110.wav|W amerykańskim programie radiowym blejm, opowiadano kiedyś historię Kevina, mężczyzny bardzo lubianego przez wszystkich.
+/home/174520hj/dataset/CS9_111.wav|Jako nastolatek, Kevin cierpiał na epilepsję. Na szczęście, neurochirurdzy pomogli mu pozbyć się ataków przez usunięcie ogniska padaczki.
+/home/174520hj/dataset/CS9_112.wav|Zanim ataki powróciły, zdążył się szczęśliwie ożenić i zdobyć satysfakcjonującą pracę.
+/home/174520hj/dataset/CS9_113.wav|Kevin postanowił powtórnie dać się zoperować, ataki znowu ustały, ale razem z nimi zniknęły wszelkie zahamowania.
+/home/174520hj/dataset/CS9_114.wav|Potrafił grać na pianinie tę samą piosenkę przez dziewięć godzin bez przerwy.
+/home/174520hj/dataset/CS9_115.wav|Stał się strasznym żarłokiem i zupełnie stracił kontrolę nad popędem seksualnym.
+/home/174520hj/dataset/CS9_116.wav|Ściągał nie tylko ogromnie ilości zwykłych filmów pornograficznych, lecz także filmy i zdjęcia z dziećmi.
+/home/174520hj/dataset/CS9_117.wav|Małymi dziećmi.
+/home/174520hj/dataset/CS9_12.wav|Zabiegi z wykorzystaniem botoksu sprawiają, że jest ono aktywowane rzadziej, co potwierdza hipotezę, że mózg odbiera sygnały mimiczne, a to wpływa z kolei na nasz nastrój.
+/home/174520hj/dataset/CS9_120.wav|Sędzia przyjął częściowo jego linię obrony.
+/home/174520hj/dataset/CS9_121.wav|Przez nasz mózg, przechodzą nie tylko sygnały które zwiększają ochotę na seks, lecz także te które pozwalają trzymać popęd w ryzach.
+/home/174520hj/dataset/CS9_123.wav|Słodka staruszka która wcześniej tak bardzo dbała o swój ogród warzywny, a teraz podszczypuje pielęgniarzy, może mieć uszkodzony jeden z wymienionych obszarów.
+/home/174520hj/dataset/CS9_124.wav|Prawdopodobnie, cierpi na otępienie czołowo skroniowe.
+/home/174520hj/dataset/CS9_13.wav|Botoks to trucizna dla komórek nerwowych, kiedy wstrzykuje się ją w mięśnie twarzy, te przestają funkcjonować.
+/home/174520hj/dataset/CS9_14.wav|Ponieważ sterujące nimi neurony, nie są już w stanie wysyłać sygnałów.
+/home/174520hj/dataset/CS9_15.wav|Część zmarszczek powstaje w wyniku kurczenia się drobnych mięśni, co powoduje że skóra nad tym miejscem staje się pomarszczona.
+/home/174520hj/dataset/CS9_16.wav|Pozbywamy się tych niedoskonałości, niszcząc botoksem sterowanie neuronowe danego mięśnia.
+/home/174520hj/dataset/CS9_17.wav|Jak dotąd, najwięcej uwagi poświęcono skutkom wstrzykiwania botoksu, w niewielki mięsień położony bocznie od nasady nosa.
+/home/174520hj/dataset/CS9_18.wav|Odpowiedzialny za marszczenie brwi.
+/home/174520hj/dataset/CS9_19.wav|Przyczyniający się do powstawania tak zwanej lwiej zmarszczki.
+/home/174520hj/dataset/CS9_2.wav|Lecz także o tym, ile czujemy. To on wpływa na to, że nasza złość przechodzi we wściekłość, a zdenerwowanie w śmiertelny strach.
+/home/174520hj/dataset/CS9_20.wav|Grupa naukowców odkryła, że dziewięć na dziesięć osób, które przed podaniem botoksu cierpiały na głęboką depresję trwającą co najmniej sześć miesięcy, wyleczyły się z niej w ciągu dwóch miesięcy od usunięcia lwiej zmarszczki.
+/home/174520hj/dataset/CS9_21.wav|Botoks, w żadnym wypadku nie jest uznaną ani zalecaną metodą leczenia depresji, ale badania naukowe zdają się potwierdzać ciekawą hipotezę.
+/home/174520hj/dataset/CS9_22.wav|Może trudniej jest odczuwać smutek, kiedy znika lwia zmarszczka i mięśnie twarzy są rozluźnione?
+/home/174520hj/dataset/CS9_23.wav|Zły humor ci nie służy.
+/home/174520hj/dataset/CS9_24.wav|A dobry jest twoim sprzymierzeńcem.
+/home/174520hj/dataset/CS9_25.wav|Nie zawsze jednak przepis jest tak prosty, jak tytuł poprzedniego podrozdziału.
+/home/174520hj/dataset/CS9_26.wav|Chociaż jednak, na nastrój wpływają o wiele bardziej skomplikowane mechanizmy niż tylko mimika, to rację mają ci którzy twierdzą ,że zły humor istnieje tylko w naszej głowie.
+/home/174520hj/dataset/CS9_27.wav|Złego nastroju w postaci smutku czy przygnębienia, doświadczył każdy.
+/home/174520hj/dataset/CS9_28.wav|Zawsze przecież znajdzie się coś, co nas przytłacza.
+/home/174520hj/dataset/CS9_3.wav|Potrzebujemy uczuć żeby funkcjonować w społeczeństwie.
+/home/174520hj/dataset/CS9_30.wav|Ale ta sytuacja się zmienia, ponieważ z czasem większość z nas odczuwa coraz mniejsze przygnębienie.
+/home/174520hj/dataset/CS9_31.wav|Depresja natomiast, to coś więcej.
+/home/174520hj/dataset/CS9_32.wav|Nie jest ona częścią naszego naturalnego spektrum uczuć, lecz chorobą, która wpływa na nasz sposób myślenia, zachowania i postrzegania świata.
+/home/174520hj/dataset/CS9_33.wav|Depresja rozlewa się dużo szerzej niż smutek i rzadko wywołuje ją jedno konkretne zdarzenie.
+/home/174520hj/dataset/CS9_34.wav|Pozbawia nas energii motywacji i zdolności odczuwania na przykład radości, ekscytacji, zadowolenia czy sensu życia.
+/home/174520hj/dataset/CS9_35.wav|Negatywny wpływ depresji na chorego nie polega jedynie na tym, że nie pozwala mu ona cieszyć się z rzeczy, które do tej pory sprawiały mu radość.
+/home/174520hj/dataset/CS9_36.wav|Ludzie w depresji i pesymiści, żyją również krócej niż inni.
+/home/174520hj/dataset/CS9_37.wav|Przyczyn tego stanu rzeczy może być wiele.
+/home/174520hj/dataset/CS9_38.wav|Może chodzi o to że takie osoby się izolują, przez co trudniej im uzyskać pomoc, kiedy jej potrzebują?
+/home/174520hj/dataset/CS9_39.wav|Może o to że zaniedbują zdrowie?
+/home/174520hj/dataset/CS9_4.wav|Ale jeśli jest ich zbyt dużo, pojawiają się nie w porę lub są nieadekwatne do bodźca, mogą sprawić że zachorujemy.
+/home/174520hj/dataset/CS9_40.wav|A może o chroniczny stres, który niszczy ciało i mózg?
+/home/174520hj/dataset/CS9_41.wav|W takim razie dobrze jest wiedzieć, że leki na depresję przyczyniają się do powstawania wielu nowych komórek nerwowych.
+/home/174520hj/dataset/CS9_42.wav|Obecnie nie nazywa się już depresji chorobą psychiczną.
+/home/174520hj/dataset/CS9_43.wav|Zmiana nastroju oznacza zmiany w chemii mózgu.
+/home/174520hj/dataset/CS9_44.wav|Zmiana samopoczucia oznacza, że zmieniła się aktywność konkretnych obszarów mózgu, rodzaj wykorzystywanych połączeń międzykomórkowych i neuroprzekaźników uwalnianych między neuronami.
+/home/174520hj/dataset/CS9_45.wav|Wszystkie te zmiany są fizyczne.
+/home/174520hj/dataset/CS9_46.wav|W badaniach nad depresją, najwięcej uwagi poświęca się neuroprzekaźnikowi o nazwie serotonina, który odpowiada za poczucie spokoju i optymizm.
+/home/174520hj/dataset/CS9_47.wav|W normalnych warunkach, serotonina jest uwalniana do szczeliny między komórkami nerwowymi i jej część dociera do receptorów sąsiedniego neuronu.
+/home/174520hj/dataset/CS9_48.wav|Wiele badań wykazało, że osoby z głęboką depresją mają mniej receptorów zdolnych do wychwycenia sygnałów serotoninowych.
+/home/174520hj/dataset/CS9_49.wav|Kazało się to prawdziwym przełomem, ponieważ dzięki temu wiemy, jakie fizyczne zmiany w mózgu powodują depresję.
+/home/174520hj/dataset/CS9_5.wav|Kiedy chandra zamienia się w depresję?
+/home/174520hj/dataset/CS9_50.wav|Zwykle nadwyżka serotoniny w szpalcie synaptycznej, jest wychwytywana przez tę komórkę nerwową, która najpierw ją uwolniła.
+/home/174520hj/dataset/CS9_51.wav|Jeśli osoba cierpiąca na depresję stosuje pewien rodzaj leków, serotonina nie może być reabsorbowana przez neuron, który ją uwolnił.
+/home/174520hj/dataset/CS9_52.wav|W ten sposób wzrasta stężenie tego neuroprzekaźnika w szpalcie synaptycznej, a tym samym większa jego ilość ma szansę oddziaływać na receptory drugiej komórki nerwowej.
+/home/174520hj/dataset/CS9_53.wav|Wpływa to na normalizację sygnału serotoninowego u osób, które mają mało receptorów zdolnych go odbierać.
+/home/174520hj/dataset/CS9_54.wav|Leki o których mowa, powodują że komfort życia wielu zmagających się z depresją, znacznie się poprawia.
+/home/174520hj/dataset/CS9_55.wav|Właśnie dlatego nazywa się je potocznie pigułkami szczęścia.
+/home/174520hj/dataset/CS9_56.wav|Tak zwane selektywne inhibitory zwrotnego wychwytu serotoniny, nie są jednak w stanie uszczęśliwić wszystkich.
+/home/174520hj/dataset/CS9_57.wav|Na niektórych, po prostu nie działają.
+/home/174520hj/dataset/CS9_58.wav|Dzieje się tak dlatego, że depresja to nie jedno zaburzenie, lecz wiele różnych zaburzeń, dających podobne objawy/.
+/home/174520hj/dataset/CS9_59.wav|Wciąż nie wiemy wystarczająco dużo na temat odpowiadających za nią zmian chemicznych w mózgu, by móc pokusić się o stwierdzenie, ile ich naprawdę jest.
+/home/174520hj/dataset/CS9_6.wav|Kiedy strach zamienia się w ciągły niepokój?
+/home/174520hj/dataset/CS9_60.wav|Ani by móc zaoferować terapię celowaną.
+/home/174520hj/dataset/CS9_63.wav|Ci u których poziom dopaminy w mózgu jest niewystarczający, czują się mniej radośni, a często smutni nawet wtedy, kiedy doświadczają czegoś co obiektywnie rzecz biorąc było przyjemnym przeżyciem.
+/home/174520hj/dataset/CS9_64.wav|W ostatnich latach zwrócono uwagę na to, że osoby cierpiące na chorobę parkinsona często zmagają się z depresją.
+/home/174520hj/dataset/CS9_65.wav|W wielu przypadkach depresję diagnozowano u nich wcześniej.
+/home/174520hj/dataset/CS9_66.wav|W chorobie parkinsona komórki nerwowe które przesyłają sygnał dopaminowy z pnia mózgu do jąder podstawnych, umierają.
+/home/174520hj/dataset/CS9_67.wav|Jest ona więc przykładem choroby, w której lekarze skupiają się na tym co klasycznie fizyczne.
+/home/174520hj/dataset/CS9_68.wav|W tym przypadku, na spoczynkowym drżeniu rąk i trudnościach z zainicjowaniem ruchu.
+/home/174520hj/dataset/CS9_69.wav|Chociaż od wielu lat wiemy, że poprzedzają ją takie symptomy jak właśnie depresja czy utrata węchu, muszą pojawić się inne łatwo uchwytne objawy związane z narządem ruchu, by móc postawić ostateczną diagnozę.
+/home/174520hj/dataset/CS9_7.wav|Śmiech to zdrowie.
+/home/174520hj/dataset/CS9_70.wav|Wiemy już, że dopamina jest neuroprzekaźnikiem, odgrywającym ważną rolę w układzie nagrody i motywacji.
+/home/174520hj/dataset/CS9_71.wav|U pacjentów z chorobą Parkinsona, obserwujemy że utrata tego neurotransmitera skutkuje nie tylko trudnościami w rozpoczęciu ruchów, lecz także ich ogólnym spowolnieniem i zubożeniem oraz depresją.
+/home/174520hj/dataset/CS9_72.wav|Nie wszyscy chorzy cierpią jednak na depresję.
+/home/174520hj/dataset/CS9_73.wav|Dotyczy ona czterdziestu pięciu procent z nich.
+/home/174520hj/dataset/CS9_74.wav|Jeśli porównamy pacjentów dotkniętych tylko chorobą Parkinsona z tymi, którzy oprócz niej zmagają się z depresją, zauważymy że ci drudzy mają mniej receptorów dopaminy w układzie limbicznym.
+/home/174520hj/dataset/CS9_75.wav|Leki zwiększające dostępność tego neuroprzekaźnika, wpływają nie tylko na zaburzenia ruchowe, lecz także na depresję.
+/home/174520hj/dataset/CS9_76.wav|W badaniach na myszach, zaobserwowano że zahamowanie produkcji dopaminy w śródmózgowiu, wywołuje objawy depresji.
+/home/174520hj/dataset/CS9_77.wav|Natomiast zwiększenie sygnału dopaminowego, je redukuje.
+/home/174520hj/dataset/CS9_78.wav|To że depresję wywołują fizyczne zmiany w mózgu, nie oznacza że nie można ich odwrócić.
+/home/174520hj/dataset/CS9_79.wav|Oprócz farmakoterapii, z chorobą pomagają walczyć również psychoterapia oraz wyuczone strategie radzenia sobie z trudnymi myślami.
+/home/174520hj/dataset/CS9_8.wav|Uśmiechając się, stajemy się radośniejsi.
+/home/174520hj/dataset/CS9_80.wav|Dzięki temu, można pozbyć się również chronicznego stresu, który współtowarzyszy depresji i na dłuższą metę jest dla nas szkodliwy.
+/home/174520hj/dataset/CS9_81.wav|Zielony potwór mózgu.
+/home/174520hj/dataset/CS9_82.wav|Kiedy zieleniejesz z zazdrości, obszar kory mózgowej między prawą i lewą półkulą zwany popularnie plamką zazdrości, zaczyna świecić.
+/home/174520hj/dataset/CS9_83.wav|Zazdrość to dobrze znane uczucie, które rodzi się z obawy przed utratą czegoś, co jest nam drogie.
+/home/174520hj/dataset/CS9_84.wav|Kiedy badani ochotnicy czytali informacje o osobach ważniejszych od siebie, aktywowała się u nich plamka zazdrości i rzeczywiście ogarniało ich to uczucie.
+/home/174520hj/dataset/CS9_85.wav|Kkiedy zaś osoby, którym badani ochotnicy zazdrościli spotykało nieszczęście lub niepowodzenie, dawała o sobie znać złośliwa satysfakcja aktywująca obszar w jądrach podstawnych.
+/home/174520hj/dataset/CS9_86.wav|Seks w mózgu.
+/home/174520hj/dataset/CS9_87.wav|Pełne doświadczenie seksualne jest wynikiem współpracy prawie wszystkich części mózgu.
+/home/174520hj/dataset/CS9_88.wav|Ale każdej w swoim czasie.
+/home/174520hj/dataset/CS9_89.wav|Kiedy widzisz głęboki dekolt, lub t shirt opinający się na bicepsie, aktywuje się płat potyliczny.
+/home/174520hj/dataset/CS9_9.wav|Sygnały z mięśni twarzy, są przesyłane do mózgu, a ten z kolei wpływa na nasze samopoczucie.
+/home/174520hj/dataset/CS9_90.wav|Kiedy kładziesz dłoń na ramieniu ukochanego, sygnały o tym, co czujesz, są przesyłane do płata ciemieniowego w przeciwległej półkuli mózgu.
+/home/174520hj/dataset/CS9_91.wav|Rozpoznawanie tego co uważasz za atrakcyjne fizycznie, odbywa się w płacie czołowym, przy wsparciu układu limbicznego.
+/home/174520hj/dataset/CS9_92.wav|Dzięki płatowi czołowemu, twoja uwaga skupia się na tym co cię pociąga.
+/home/174520hj/dataset/CS9_93.wav|Tracisz natomiast zainteresowanie innymi rzeczami, które dzieją się wokół ciebie.
+/home/174520hj/dataset/CS9_94.wav|Prócz aktywacji kory mózgowej w różnych obszarach, absolutnie kluczowe znaczenie mają wszystkie zmiany hormonalne.
+/home/174520hj/dataset/CS9_95.wav|Nimi również steruje mózg.
+/home/174520hj/dataset/CS9_96.wav|Chociaż współpraca między wieloma jego strukturami jest ważna dla pełnego aktu seksualnego, już sama stymulacja kory w szczelinie podłużnej między półkulami, wystarczy żeby wywołać orgazm u małp.
+/home/174520hj/dataset/CS9_97.wav|Orgazm powstaje dzięki uaktywnieniu prawie całego mózgu, z wyjątkiem płata czołowego i ciała migdałowatego.
+/home/174520hj/dataset/CS9_98.wav|Dezaktywacja płata czołowego jest jasna.
+/home/174520hj/dataset/CS9_99.wav|Dzięki temu możemy dać się ponieść, nie myśląc o konsekwencjach.
