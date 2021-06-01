@@ -1,6 +1,6 @@
 # This is the file that implements a flask server to do inferences. It's the file that you will modify to
 # implement the scoring for your own algorithm.
-
+import json
 import os
 import boto3
 from s3fs.core import S3FileSystem
@@ -83,9 +83,8 @@ def inference():
 
         # Do the prediction
         print("Predict - getting audio!")
-        audio = predict(sequence)
+        audio_denoised = predict(sequence)
         print("Denoising audio!")
-        audio_denoised = denoiser(audio, strength=0.01)[:, 0]
 
         audio_file = ipd.Audio(audio_denoised.cpu().numpy(), rate=22050)
         filename = f"{date.today()}.wav"
@@ -96,13 +95,16 @@ def inference():
         my_bucket = "aws-linux-academy-2k10-ml-sagemaker"
         print("Writing file to s3")
         write_to_s3(filename, my_bucket, filename)
-        return flask.Response(response="Audio file saved on S3 bucket", status=200,
-                              mimetype='text/plain')
+        return flask.Response(response=json.dumps(
+            {"message": "Audio file saved on S3 bucket"}), status=200,
+                              mimetype='application/json')
     except:
         import traceback
-
-        return flask.Response(response=f"{traceback.format_exc()}", status=400,
-                              mimetype='text/plain')
+        print(traceback.format_exc())
+        return flask.Response(response=json.dumps(
+            {"message": f"{traceback.format_exc()}"}),
+             status=400,
+            mimetype='application/json')
 
 
 
