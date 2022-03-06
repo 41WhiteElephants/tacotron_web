@@ -20,10 +20,10 @@ RUN apt-get -y update && apt-get install -y --no-install-recommends \
 RUN ln -s -f /usr/bin/python3 /usr/bin/python
 RUN ln -s -f /usr/bin/pip3 /usr/bin/pip
 RUN pip3 install --no-cache-dir numpy==1.16.4 \
-    scipy==1.0.0  flask statsmodels pydub \
+    scipy==1.0.0 flask statsmodels pydub \
     torch==1.5.0 torchvision==0.6.0 s3fs numba==0.48 tensorflow==1.12.2 \
     tensorboard inflect==0.2.5 matplotlib \
-    librosa==0.6.0 Unidecode==1.0.22 pillow boto3 sagemaker gevent ipython
+    librosa==0.6.0 Unidecode==1.0.22 pillow==8.3.2 boto3 sagemaker gevent ipython
 
 RUN pip3 install gunicorn && \
         rm -rf /root/.cache

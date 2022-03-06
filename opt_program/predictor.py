@@ -1,10 +1,14 @@
 # This is the file that implements a flask server to do inferences. It's the file that you will modify to
 # implement the scoring for your own algorithm.
 import json
+import string
+import random
 import os
 import boto3
+
+from botocore.exceptions import ClientError
 from s3fs.core import S3FileSystem
-from sagemaker import get_execution_role
+
 import sys
 sys.path.append('waveglow/')
 import flask
@@ -56,8 +60,43 @@ def preprocess(text):
 
 
 def write_to_s3(filename, bucket, key):
-    with open(filename, 'rb') as f: # Read in binary mode
+    with open(filename, 'rb') as f:  # Read in binary mode
         return boto3.Session().resource('s3').Bucket(bucket).Object(key).upload_fileobj(f)
+
+
+def write_to_ddb(filename, username):
+    dynamo_db = boto3.resource(
+        'dynamodb'
+    )
+    table = dynamo_db.Table("user-recordings")
+    # query for recordings under username index
+    # if response is not empty, append new filename
+    # else, create new item with new username, create list attribute and append filename
+
+    try:
+        response = table.update_item(
+            Key={'Username': username},
+            UpdateExpression="SET #attrName = list_append(#attrName, :attrValue)",
+            ExpressionAttributeNames={
+                "#attrName": "Filenames"
+            },
+            ExpressionAttributeValues={
+                ':attrValue': [filename]
+            },
+            ReturnValues="UPDATED_NEW"
+        )
+    except ClientError:
+        # create db record if it's the first recording for a given user
+        response = table.put_item(
+            Item={
+                "Username": username,
+                "Filenames": []
+            }
+        )
+
+
+def secret_generator(size=12, chars=string.ascii_uppercase + string.digits):
+    return ''.join(random.choice(chars) for _ in range(size))
 
 
 # The flask app for serving predictions
@@ -87,7 +126,8 @@ def inference():
         print("Denoising audio!")
 
         audio_file = ipd.Audio(audio_denoised.cpu().numpy(), rate=22050)
-        filename = f"{date.today()}.wav"
+        secret_token = secret_generator()
+        filename = f"{date.today()}_{secret_token}.wav"
         audio_file = AudioSegment(audio_file.data, frame_rate=22050, sample_width=2,
                                   channels=1)
         print("Saving audio file!")
@@ -95,6 +135,11 @@ def inference():
         my_bucket = "aws-linux-academy-2k10-ml-sagemaker"
         print("Writing file to s3")
         write_to_s3(filename, my_bucket, filename)
+        # get cognito_id
+        username = data["username"]
+        print("Writing file to database")
+        write_to_ddb(filename, username)
+        # write
         return flask.Response(response=json.dumps(
             {"message": "Audio file saved on S3 bucket"}), status=200,
                               mimetype='application/json')
@@ -105,8 +150,6 @@ def inference():
             {"message": f"{traceback.format_exc()}"}),
              status=400,
             mimetype='application/json')
-
-
 
 
 @app.route('/ping', methods=['GET'])
